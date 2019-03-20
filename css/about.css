@@ -1,0 +1,14 @@
+.about {
+  padding: 20px 0;
+  color: #5f5f5f;
+    color-background-color: #fafafa;
+  margin-bottom: 40px; }
+  .about .desctiption {
+    margin-bottom: 40px; }
+    .about .desctiption .title {
+      margin: 50px 0; }
+      .about .desctiption .title h2 {
+        font-size: 26px; }
+    .about .desctiption p {
+      margin-bottom: 40px;
+      font-size: 18px; }

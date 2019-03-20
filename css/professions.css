@@ -1,0 +1,69 @@
+.professions {
+  color: #40555f; }
+  .professions .referens {
+    margin: 40px 0;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 170px;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-text-decoration-style: dashed;
+            text-decoration-style: dashed;
+    -webkit-text-decoration-line: underline;
+            text-decoration-line: underline; }
+    .professions .referens input {
+      display: none; }
+      .professions .referens input:checked + label {
+        background: #40555f;
+        color: #ffffff; }
+    .professions .referens label {
+      color: #40555f;
+      cursor: pointer;
+      border: none;
+      -webkit-border-radius: 5px;
+              border-radius: 5px;
+      text-align: left;
+      padding: 10px 20px;
+      margin: 2px 0; }
+  .professions .card {
+    background: #f6f6f6;
+    margin-bottom: 50px; }
+    .professions .card .card-body {
+      height: 310px; }
+    .professions .card .card-title {
+      font-size: 24px; }
+    .professions .card a {
+      color: #575757 !important;
+      float: right;
+      border: 1px solid #40555f;
+      -webkit-border-radius: 5px;
+              border-radius: 5px;
+      padding: 10px 20px; }
+  .professions .ite {
+    display: none; }
+    .professions .ite .row {
+      margin: 0; }
+
+@media (max-width: 576px) {
+  .professions .referens {
+    height: auto; }
+  .professions .card .card-body {
+    height: auto; } }
+
+@media (min-width: 992px) {
+  .contact .info {
+    padding-left: 250px; }
+  .contact .title {
+    padding-left: 250px; } }

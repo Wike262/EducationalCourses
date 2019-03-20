@@ -1,0 +1,68 @@
+.buttons {
+  margin-bottom: 100px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap; }
+  .buttons button {
+    margin-right: 10px;
+    background: #18cbcb;
+    text-transform: uppercase;
+    font-size: 18px;
+    border: none;
+    color: #ffffff;
+    width: 30%;
+    height: 100%;
+    margin: 10px 10px;
+    font-weight: bold; }
+
+#buttons {
+  margin: 50px 0; }
+
+.por .title {
+  text-align: center;
+  margin-bottom: 40px; }
+
+.obr {
+  padding: 50px 0; }
+  .obr .title {
+    text-align: center;
+    padding-bottom: 50px; }
+  .obr .item {
+    padding: 0 50px; }
+    .obr .item h4 {
+      font-weight: bold;
+      text-align: center;
+      font-size: 18px;
+      margin-bottom: 20px; }
+    .obr .item img {
+      width: 100%;
+      -o-object-fit: cover;
+         object-fit: cover; }
+
+.basic .title {
+  text-align: center; }
+
+.choose {
+  padding: 50px 0;
+  background-image: url(../img/header.jpg);
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+          background-size: cover; }
+
+@media (max-width: 576px) {
+  .buttons button {
+    font-size: 14px;
+    width: 100%;
+    height: 40%; } }

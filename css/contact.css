@@ -1,0 +1,53 @@
+.contact {
+  margin-top: 50px;
+  position: relative; }
+  .contact .title {
+    margin-bottom: 50px; }
+  .contact .background {
+    position: absolute;
+    top: 90px;
+    left: 0;
+    width: 50%;
+    height: 92%;
+    background-color: #364d62; }
+  .contact .info {
+    background: #364d62;
+    padding: 40px;
+    color: #ffffff; }
+    .contact .info img {
+      margin-right: 20px;
+      max-width: 30px;
+      max-height: 30px; }
+    .contact .info .adress, .contact .info .phone, .contact .info .email {
+      margin: 20px 0; }
+    .contact .info .phone {
+      margin: 0;
+      padding: 20px 0;
+      position: relative; }
+      .contact .info .phone:after, .contact .info .phone:before {
+        content: '';
+        position: absolute;
+        width: 50px;
+        height: 2px;
+        left: 50px;
+        background: #47ccc8; }
+      .contact .info .phone:after {
+        bottom: 0; }
+      .contact .info .phone:before {
+        top: 0; }
+      .contact .info .phone h2 {
+        font-weight: bold; }
+  .contact .map {
+    padding: 0; }
+
+@media (min-width: 1200px) {
+  .contact .info {
+    padding-left: 400px; }
+  .contact .title {
+    padding-left: 400px; } }
+
+@media (min-width: 992px) {
+  .contact .info {
+    padding-left: 250px; }
+  .contact .title {
+    padding-left: 250px; } }

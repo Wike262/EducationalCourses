@@ -51,10 +51,13 @@
       height: 100%; }
   .about .description .title {
     margin-bottom: 50px; }
-
+header .title {
+  margin: 0 auto;
+}
 .button {
   margin-bottom: 50px; }
   .button button {
+    cursor: pointer;
     background: #18cbcb;
     border: none;
     text-transform: uppercase;
@@ -64,3 +67,12 @@
     -webkit-border-radius: 5px;
             border-radius: 5px;
     border-bottom: 2px solid #1fb3b3; }
+    .button button:hover {
+      background: #396391;
+      border-color: #396391;
+    }
+    @media (min-width: 992px) {
+        header .contact-info a{
+          margin-top: -50px; 
+    } }
+    

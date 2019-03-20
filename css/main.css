@@ -122,7 +122,8 @@ header {
     header .contact-info p {
       font-size: 22px;
       font-weight: bold;
-      margin-right: 15px; }
+      margin-right: 15px;
+    margin-bottom: 0 }
     header .contact-info a {
       font-size: 21px;
       -webkit-text-decoration-style: dashed;
@@ -169,6 +170,9 @@ header {
           -webkit-transition: none;
           -o-transition: none;
           transition: none; }
+          header .navigation nav .clo-2 {
+            columns: 2;
+          }
       header .navigation nav .dropdown-men {
         position: absolute;
         top: 100%;
@@ -191,19 +195,19 @@ header {
           border: 1px solid rgba(0, 0, 0, 0.15);
           -webkit-border-radius: .25rem;
                   border-radius: .25rem;
-          height: 110px;
-          width: 150px; }
+          height: fit-content;
+          width: fit-content; }
       header .navigation nav #uslug:hover {
-        width: 250px; }
+        width: fit-content; }
       header .navigation nav .dropdown-toggle:hover + .dropdown-men {
         padding: .5rem 0;
         border: 1px solid rgba(0, 0, 0, 0.15);
         -webkit-border-radius: .25rem;
                 border-radius: .25rem;
-        height: 110px;
-        width: 150px; }
+                height: fit-content;
+                width: fit-content; }
       header .navigation nav .dropdown-toggle:hover + #uslug {
-        width: 250px; }
+        width: fit-content; }
       header .navigation nav a:hover {
         -webkit-text-decoration-line: underline;
                 text-decoration-line: underline; }
@@ -615,6 +619,8 @@ footer {
                   }
                   .form form button {
                     width: auto;
+                    
                   }
+
 }
                 

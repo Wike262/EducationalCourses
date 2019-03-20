@@ -32,3 +32,8 @@ table {
     table tbody tr td:nth-child(5) {
       -webkit-border-radius: 0 5px 5px 0;
               border-radius: 0 5px 5px 0; }
+              .chek {
+                background: #508a90 !important;
+                color: #ffffff; 
+                border-radius: 5px;
+              }

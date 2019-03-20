@@ -20,7 +20,9 @@
       margin-bottom: 20px; }
       .req ul li img {
         margin-right: 20px; }
-
+        header .title {
+          margin: 20px auto;
+          text-align: center; }
 .sert {
   padding: 50px 0; }
   .sert img {
@@ -84,4 +86,7 @@
 
 @media (min-width: 992px) {
   .por .row img {
-    display: block; } }
+    display: block; }
+    header .contact-info a{
+      margin-top: -50px; 
+} }

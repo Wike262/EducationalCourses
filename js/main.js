@@ -1,7 +1,22 @@
 function diplay_show(blockId) {
     $(blockId).slideToggle();
 }
+$('.red').on('click', function () {
+    window.location.href = 'category.html';
+    localStorage.setItem(curs, $(this).attr('id'));
+});
 var elemId = 1;
+var curs = 1;
+
+function curses() {
+    for (var i = 1; i <= 15; i++) {
+        $('#content-tab' + i).css('display', 'none');
+    }
+    $('#content-tab' + localStorage.getItem(curs)).css('display', 'block');
+    $('#' + localStorage.getItem(curs)).prop('checked', true);
+    $('#' + localStorage.getItem(curs)).parent('label').addClass('chek');
+    localStorage.setItem(curs, 1);
+}
 
 function toggle(blockId, id) {
     if (!($('#' + id).hasClass('active'))) {

@@ -197,41 +197,74 @@
                     <h2>Каталог курсов переподготовки</h2>
                 </div>
                 <div class="btn-group-vertical col-lg-4 col-12 justify-content-start">
+                    <ul class="nav nav-tabs" id="myTab" role="tablist">
+                        <li class="nav-item">
+                            <a class="nav-link active" id="meneg-tab" data-toggle="tab" href="#meneg" role="tab"
+                                aria-controls="meneg" aria-selected="true">Менеджмент</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="ecs-tab" data-toggle="tab" href="#ecs" role="tab"
+                                aria-controls="ecs" aria-selected="false">Экспертиза и оценка</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="sec-tab" data-toggle="tab" href="#sec" role="tab"
+                                aria-controls="sec" aria-selected="false">Безопасность</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="econom-tab" data-toggle="tab" href="#econom" role="tab"
+                                aria-controls="econom" aria-selected="false">Экономика и право</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="tran-tab" data-toggle="tab" href="#tran" role="tab"
+                                aria-controls="tran" aria-selected="false">Транспорт</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="ped-tab" data-toggle="tab" href="#ped" role="tab"
+                                aria-controls="ped" aria-selected="false">Педагогика</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="psi-tab" data-toggle="tab" href="#psi" role="tab"
+                                aria-controls="psi" aria-selected="false">Психология</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="it-tab" data-toggle="tab" href="#it" role="tab" aria-controls="it"
+                                aria-selected="false">Инженерия и IT</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="jkh-tab" data-toggle="tab" href="#jkh" role="tab"
+                                aria-controls="jkh" aria-selected="false">Строительство и ЖКХ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="med-tab" data-toggle="tab" href="#med" role="tab"
+                                aria-controls="med" aria-selected="false">Медицина</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="sport-tab" data-toggle="tab" href="#sport" role="tab"
+                                aria-controls="sport" aria-selected="false">Спорт</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="desi-tab" data-toggle="tab" href="#desi" role="tab"
+                                aria-controls="desi" aria-selected="false">Дизайн</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="mark-tab" data-toggle="tab" href="#mark" role="tab"
+                                aria-controls="mark" aria-selected="false">Маркетинг и продажи</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="farm-tab" data-toggle="tab" href="#farm" role="tab"
+                                aria-controls="farm" aria-selected="false">Сельское хозяйство</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="another-tab" data-toggle="tab" href="#another" role="tab"
+                                aria-controls="another" aria-selected="false">Другое</a>
+                        </li>
+                    </ul>
 
 
-                    <label class="chek"> <input type="radio" name="tabs" id="1" checked>Менеджмент</label>
-
-                    <label><input type="radio" name="tabs" id="2">Экспертиза и оценка</label>
-
-                    <label><input type="radio" name="tabs" id="3">Безопасность</label>
-
-                    <label><input type="radio" name="tabs" id="4">Экономика и право</label>
-
-                    <label> <input type="radio" name="tabs" id="5">Транспорт</label>
-
-                    <label><input type="radio" name="tabs" id="6">Педагогика</label>
-
-                    <label> <input type="radio" name="tabs" id="7">Психология</label>
-
-                    <label><input type="radio" name="tabs" id="8">Инженерия и IT</label>
-
-                    <label><input type="radio" name="tabs" id="9">Строительство и ЖКХ</label>
-
-                    <label><input type="radio" name="tabs" id="10">Медицина</label>
-
-                    <label><input type="radio" name="tabs" id="11">Спорт</label>
-
-                    <label><input type="radio" name="tabs" id="12">Дизайн</label>
-
-                    <label><input type="radio" name="tabs" id="13">Маркетинг и продажи</label>
-
-                    <label><input type="radio" name="tabs" id="14">Сельское хозяйство</label>
-
-                    <label><input type="radio" name="tabs" id="15">Другое</label>
                 </div>
-                <div class="content col-lg-8 col-12 table-responsive">
-                    <div class="item" id="content-tab1">
-                        <h3>Основные сведения</h3>
+                <div class="tab-content col-lg-8 col-12 table-responsive">
+                    <div class="item tab-pane active" id="meneg" role="tabpanel" aria-labelledby="meneg">
+                        <h3>Менеджмент</h3>
                         <button class="active">Все, кроме медецины</button>
                         <button>Медицина</button>
                         <table class="table">
@@ -364,8 +397,8 @@
                         </table>
 
                     </div>
-                    <div class="item" id="content-tab2">
-                        <h3>Основные сведения</h3>
+                    <div class="item tab-pane" id="ecs" role="tabpanel" aria-labelledby="ecs">
+                        <h3>Экспертиза и оценка</h3>
                         <button class="active">Все, кроме медецины</button>
                         <button>Медицина</button>
                         <table class="table">
@@ -498,8 +531,8 @@
                         </table>
 
                     </div>
-                    <div class="item" id="content-tab3">
-                        <h3>Основные сведения</h3>
+                    <div class="item tab-pane" id="sec" role="tabpanel" aria-labelledby="sec">
+                        <h3>Безопасность</h3>
                         <button class="active">Все, кроме медецины</button>
                         <button>Медицина</button>
                         <table class="table">
@@ -632,8 +665,8 @@
                         </table>
 
                     </div>
-                    <div class="item" id="content-tab4">
-                        <h3>Основные сведения</h3>
+                    <div class="item tab-pane" id="econom" role="tabpanel" aria-labelledby="econom">
+                        <h3>Экономика и право</h3>
                         <button class="active">Все, кроме медецины</button>
                         <button>Медицина</button>
                         <table class="table">
@@ -766,8 +799,8 @@
                         </table>
 
                     </div>
-                    <div class="item" id="content-tab5">
-                        <h3>Основные сведения</h3>
+                    <div class="item tab-pane" id="tran" role="tabpanel" aria-labelledby="tran">
+                        <h3>Транспорт</h3>
                         <button class="active">Все, кроме медецины</button>
                         <button>Медицина</button>
                         <table class="table">
@@ -900,8 +933,8 @@
                         </table>
 
                     </div>
-                    <div class="item" id="content-tab6">
-                        <h3>Основные сведения</h3>
+                    <div class="item tab-pane" id="ped" role="tabpanel" aria-labelledby="ped">
+                        <h3>Педагогика</h3>
                         <button class="active">Все, кроме медецины</button>
                         <button>Медицина</button>
                         <table class="table">
@@ -1034,8 +1067,8 @@
                         </table>
 
                     </div>
-                    <div class="item" id="content-tab7">
-                        <h3>Основные сведения</h3>
+                    <div class="item tab-pane" id="psi" role="tabpanel" aria-labelledby="psi">
+                        <h3>Психология</h3>
                         <button class="active">Все, кроме медецины</button>
                         <button>Медицина</button>
                         <table class="table">
@@ -1168,8 +1201,8 @@
                         </table>
 
                     </div>
-                    <div class="item" id="content-tab8">
-                        <h3>Основные сведения</h3>
+                    <div class="item tab-pane" id="it" role="tabpanel" aria-labelledby="it">
+                        <h3>Инженерия и IT</h3>
                         <button class="active">Все, кроме медецины</button>
                         <button>Медицина</button>
                         <table class="table">
@@ -1302,8 +1335,8 @@
                         </table>
 
                     </div>
-                    <div class="item" id="content-tab9">
-                        <h3>Основные сведения</h3>
+                    <div class="item tab-pane" id="jkh" role="tabpanel" aria-labelledby="jkh">
+                        <h3>Строительство и ЖКХ</h3>
                         <button class="active">Все, кроме медецины</button>
                         <button>Медицина</button>
                         <table class="table">
@@ -1436,8 +1469,8 @@
                         </table>
 
                     </div>
-                    <div class="item" id="content-tab10">
-                        <h3>Основные сведения</h3>
+                    <div class="item tab-pane" id="med" role="tabpanel" aria-labelledby="med">
+                        <h3>Медицина</h3>
                         <button class="active">Все, кроме медецины</button>
                         <button>Медицина</button>
                         <table class="table">
@@ -1570,8 +1603,8 @@
                         </table>
 
                     </div>
-                    <div class="item" id="content-tab11">
-                        <h3>Основные сведения</h3>
+                    <div class="item tab-pane" id="sport" role="tabpanel" aria-labelledby="sport">
+                        <h3>Спорт</h3>
                         <button class="active">Все, кроме медецины</button>
                         <button>Медицина</button>
                         <table class="table">
@@ -1704,8 +1737,8 @@
                         </table>
 
                     </div>
-                    <div class="item" id="content-tab12">
-                        <h3>Основные сведения</h3>
+                    <div class="item tab-pane" id="desi" role="tabpanel" aria-labelledby="desi">
+                        <h3>Дизайн</h3>
                         <button class="active">Все, кроме медецины</button>
                         <button>Медицина</button>
                         <table class="table">
@@ -1838,8 +1871,8 @@
                         </table>
 
                     </div>
-                    <div class="item" id="content-tab13">
-                        <h3>Основные сведения</h3>
+                    <div class="item tab-pane" id="mark" role="tabpanel" aria-labelledby="mark">
+                        <h3>Маркетинг и продажи</h3>
                         <button class="active">Все, кроме медецины</button>
                         <button>Медицина</button>
                         <table class="table">
@@ -1972,8 +2005,8 @@
                         </table>
 
                     </div>
-                    <div class="item" id="content-tab14">
-                        <h3>Основные сведения</h3>
+                    <div class="item tab-pane" id="farm" role="tabpanel" aria-labelledby="farm">
+                        <h3>Сельское хозяйство</h3>
                         <button class="active">Все, кроме медецины</button>
                         <button>Медицина</button>
                         <table class="table">
@@ -2106,8 +2139,8 @@
                         </table>
 
                     </div>
-                    <div class="item" id="content-tab15">
-                        <h3>Основные сведения</h3>
+                    <div class="item tab-pane" id="another" role="tabpanel" aria-labelledby="another">
+                        <h3>Другое</h3>
                         <button class="active">Все, кроме медецины</button>
                         <button>Медицина</button>
                         <table class="table">
@@ -2351,7 +2384,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="contact col-lg-3 col-12 align-items-lg-end align-items-center">
+                <div class="contact  mb-4 col-lg-3 col-12 align-items-lg-end align-items-center">
                     <h4>+7 (915) 270-64-64</h4>
                     <a href="#">заказать звонок</a>
                     <h4>ss113982@gmail.com</h4>
@@ -2363,25 +2396,9 @@
     <script src="js/libs.min.js"></script>
     <script src="js/main.js"></script>
     <script>
-        function change() {
-            for (var i = 1; i < 16; i++) {
-                $('#content-tab' + i).css('display', 'none');
-            }
-            $('#content-tab' + ($(this).attr('id'))).css('display', 'block');
-        }
-        $("input[type=radio]").on("click", change);
         $(document).ready(function () {
             curses();
-
-        }
-        )
-        $("input[type=radio]").on("click", function () {
-            $('.btn-group-vertical').find('label').removeClass('chek');
-            $('.row').find('.item').css('display', 'none');
-
-            $(this).parent('label').addClass('chek')
-            $('#content-tab' + ($(this).attr('id'))).css('display', 'block');
-        });
+        })
     </script>
 </body>
 

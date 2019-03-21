@@ -6,16 +6,13 @@ $('.red').on('click', function () {
     localStorage.setItem(curs, $(this).attr('id'));
 });
 var elemId = 1;
-var curs = 1;
+var curs = "sec";
 
 function curses() {
-    for (var i = 1; i <= 15; i++) {
-        $('#content-tab' + i).css('display', 'none');
-    }
-    $('#content-tab' + localStorage.getItem(curs)).css('display', 'block');
-    $('#' + localStorage.getItem(curs)).prop('checked', true);
-    $('#' + localStorage.getItem(curs)).parent('label').addClass('chek');
-    localStorage.setItem(curs, 1);
+    $('#' + localStorage.getItem(curs) + '-tab').tab('show');
+    localStorage.setItem(curs, 'meneg');
+
+
 }
 
 function toggle(blockId, id) {

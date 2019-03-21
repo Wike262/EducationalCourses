@@ -321,39 +321,73 @@
 					<h2>Каталог курсов переподготовки</h2>
 				</div>
 				<div class="btn-group-vertical col-lg-4 col-12 justify-content-start">
-					<input type="radio" name="tabs" id="1" checked>
-					<label for="1">Менеджмент</label>
-					<input type="radio" name="tabs" id="2">
-					<label for="2">Экспертиза и оценка</label>
-					<input type="radio" name="tabs" id="3">
-					<label for="3">Безопасность</label>
-					<input type="radio" name="tabs" id="4">
-					<label for="4">Экономика и право</label>
-					<input type="radio" name="tabs" id="5">
-					<label for="5">Транспорт</label>
-					<input type="radio" name="tabs" id="6">
-					<label for="6">Педагогика</label>
-					<input type="radio" name="tabs" id="7">
-					<label for="7">Психология</label>
-					<input type="radio" name="tabs" id="8">
-					<label for="8">Инженерия и IT</label>
-					<input type="radio" name="tabs" id="9">
-					<label for="9">Строительство и ЖКХ</label>
-					<input type="radio" name="tabs" id="10">
-					<label for="10">Медицина</label>
-					<input type="radio" name="tabs" id="11">
-					<label for="11">Спорт</label>
-					<input type="radio" name="tabs" id="12">
-					<label for="12">Дизайн</label>
-					<input type="radio" name="tabs" id="13">
-					<label for="13">Маркетинг и продажи</label>
-					<input type="radio" name="tabs" id="14">
-					<label for="14">Сельское хозяйство</label>
-					<input type="radio" name="tabs" id="15">
-					<label for="15">Другое</label>
+					<ul class="nav nav-tabs" id="myTab" role="tablist">
+						<li class="nav-item">
+							<a class="nav-link active" id="meneg-tab" data-toggle="tab" href="#meneg" role="tab"
+								aria-controls="meneg" aria-selected="true">Менеджмент</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" id="ecs-tab" data-toggle="tab" href="#ecs" role="tab"
+								aria-controls="ecs" aria-selected="false">Экспертиза и оценка</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" id="sec-tab" data-toggle="tab" href="#sec" role="tab"
+								aria-controls="sec" aria-selected="false">Безопасность</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" id="econom-tab" data-toggle="tab" href="#econom" role="tab"
+								aria-controls="econom" aria-selected="false">Экономика и право</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" id="tran-tab" data-toggle="tab" href="#tran" role="tab"
+								aria-controls="tran" aria-selected="false">Транспорт</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" id="ped-tab" data-toggle="tab" href="#ped" role="tab"
+								aria-controls="ped" aria-selected="false">Педагогика</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" id="psi-tab" data-toggle="tab" href="#psi" role="tab"
+								aria-controls="psi" aria-selected="false">Психология</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" id="it-tab" data-toggle="tab" href="#it" role="tab" aria-controls="it"
+								aria-selected="false">Инженерия и IT</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" id="jkh-tab" data-toggle="tab" href="#jkh" role="tab"
+								aria-controls="jkh" aria-selected="false">Строительство и ЖКХ</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" id="med-tab" data-toggle="tab" href="#med" role="tab"
+								aria-controls="med" aria-selected="false">Медицина</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" id="sport-tab" data-toggle="tab" href="#sport" role="tab"
+								aria-controls="sport" aria-selected="false">Спорт</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" id="desi-tab" data-toggle="tab" href="#desi" role="tab"
+								aria-controls="desi" aria-selected="false">Дизайн</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" id="mark-tab" data-toggle="tab" href="#mark" role="tab"
+								aria-controls="mark" aria-selected="false">Маркетинг и продажи</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" id="farm-tab" data-toggle="tab" href="#farm" role="tab"
+								aria-controls="farm" aria-selected="false">Сельское хозяйство</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" id="another-tab" data-toggle="tab" href="#another" role="tab"
+								aria-controls="another" aria-selected="false">Другое</a>
+						</li>
+					</ul>
+
+
 				</div>
-				<div class="content col-lg-8 col-12 table-responsive">
-					<div class="item" id="content-tab1">
+				<div class="tab-content col-lg-8 col-12 table-responsive">
+					<div class="item tab-pane active" id="meneg" role="tabpanel" aria-labelledby="meneg">
 						<table class="table">
 							<tr id="head">
 								<th>№</th>
@@ -364,35 +398,127 @@
 							</tr>
 							<tr>
 								<td>1</td>
-								<td>Специалист по предоставлению визажных услуг</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
 								<td>5 000</td>
 								<td>1</td>
 								<td>110</td>
 							</tr>
 							<tr>
 								<td>1</td>
-								<td>Специалист по предоставлению визажных услуг</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
 								<td>5 000</td>
 								<td>1</td>
 								<td>110</td>
 							</tr>
 							<tr>
 								<td>1</td>
-								<td>Специалист по предоставлению визажных услуг</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
 								<td>5 000</td>
 								<td>1</td>
 								<td>110</td>
 							</tr>
 							<tr>
 								<td>1</td>
-								<td>Специалист по предоставлению визажных услуг</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
 								<td>5 000</td>
 								<td>1</td>
 								<td>110</td>
 							</tr>
 						</table>
+
 					</div>
-					<div class="item" id="content-tab2">
+					<div class="item tab-pane" id="ecs" role="tabpanel" aria-labelledby="ecs">
 						<table class="table">
 							<tr id="head">
 								<th>№</th>
@@ -403,35 +529,127 @@
 							</tr>
 							<tr>
 								<td>1</td>
-								<td>Специалист по предоставлению визажных услуг</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
 								<td>5 000</td>
 								<td>1</td>
 								<td>110</td>
 							</tr>
 							<tr>
 								<td>1</td>
-								<td>Специалист по предоставлению визажных услуг</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
 								<td>5 000</td>
 								<td>1</td>
 								<td>110</td>
 							</tr>
 							<tr>
 								<td>1</td>
-								<td>Специалист по предоставлению визажных услуг</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
 								<td>5 000</td>
 								<td>1</td>
 								<td>110</td>
 							</tr>
 							<tr>
 								<td>1</td>
-								<td>Специалист по предоставлению визажных услуг</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
 								<td>5 000</td>
 								<td>1</td>
 								<td>110</td>
 							</tr>
 						</table>
+
 					</div>
-					<div class="item" id="content-tab3">
+					<div class="item tab-pane" id="sec" role="tabpanel" aria-labelledby="sec">
 						<table class="table">
 							<tr id="head">
 								<th>№</th>
@@ -442,35 +660,127 @@
 							</tr>
 							<tr>
 								<td>1</td>
-								<td>Специалист по предоставлению визажных услуг</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
 								<td>5 000</td>
 								<td>1</td>
 								<td>110</td>
 							</tr>
 							<tr>
 								<td>1</td>
-								<td>Специалист по предоставлению визажных услуг</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
 								<td>5 000</td>
 								<td>1</td>
 								<td>110</td>
 							</tr>
 							<tr>
 								<td>1</td>
-								<td>Специалист по предоставлению визажных услуг</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
 								<td>5 000</td>
 								<td>1</td>
 								<td>110</td>
 							</tr>
 							<tr>
 								<td>1</td>
-								<td>Специалист по предоставлению визажных услуг</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
 								<td>5 000</td>
 								<td>1</td>
 								<td>110</td>
 							</tr>
 						</table>
+
 					</div>
-					<div class="item" id="content-tab4">
+					<div class="item tab-pane" id="econom" role="tabpanel" aria-labelledby="econom">
 						<table class="table">
 							<tr id="head">
 								<th>№</th>
@@ -481,35 +791,127 @@
 							</tr>
 							<tr>
 								<td>1</td>
-								<td>Специалист по предоставлению визажных услуг</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
 								<td>5 000</td>
 								<td>1</td>
 								<td>110</td>
 							</tr>
 							<tr>
 								<td>1</td>
-								<td>Специалист по предоставлению визажных услуг</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
 								<td>5 000</td>
 								<td>1</td>
 								<td>110</td>
 							</tr>
 							<tr>
 								<td>1</td>
-								<td>Специалист по предоставлению визажных услуг</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
 								<td>5 000</td>
 								<td>1</td>
 								<td>110</td>
 							</tr>
 							<tr>
 								<td>1</td>
-								<td>Специалист по предоставлению визажных услуг</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
 								<td>5 000</td>
 								<td>1</td>
 								<td>110</td>
 							</tr>
 						</table>
+
 					</div>
-					<div class="item" id="content-tab5">
+					<div class="item tab-pane" id="tran" role="tabpanel" aria-labelledby="tran">
 						<table class="table">
 							<tr id="head">
 								<th>№</th>
@@ -520,35 +922,127 @@
 							</tr>
 							<tr>
 								<td>1</td>
-								<td>Специалист по предоставлению визажных услуг</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
 								<td>5 000</td>
 								<td>1</td>
 								<td>110</td>
 							</tr>
 							<tr>
 								<td>1</td>
-								<td>Специалист по предоставлению визажных услуг</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
 								<td>5 000</td>
 								<td>1</td>
 								<td>110</td>
 							</tr>
 							<tr>
 								<td>1</td>
-								<td>Специалист по предоставлению визажных услуг</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
 								<td>5 000</td>
 								<td>1</td>
 								<td>110</td>
 							</tr>
 							<tr>
 								<td>1</td>
-								<td>Специалист по предоставлению визажных услуг</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
 								<td>5 000</td>
 								<td>1</td>
 								<td>110</td>
 							</tr>
 						</table>
+
 					</div>
-					<div class="item" id="content-tab6">
+					<div class="item tab-pane" id="ped" role="tabpanel" aria-labelledby="ped">
 						<table class="table">
 							<tr id="head">
 								<th>№</th>
@@ -559,35 +1053,127 @@
 							</tr>
 							<tr>
 								<td>1</td>
-								<td>Специалист по предоставлению визажных услуг</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
 								<td>5 000</td>
 								<td>1</td>
 								<td>110</td>
 							</tr>
 							<tr>
 								<td>1</td>
-								<td>Специалист по предоставлению визажных услуг</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
 								<td>5 000</td>
 								<td>1</td>
 								<td>110</td>
 							</tr>
 							<tr>
 								<td>1</td>
-								<td>Специалист по предоставлению визажных услуг</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
 								<td>5 000</td>
 								<td>1</td>
 								<td>110</td>
 							</tr>
 							<tr>
 								<td>1</td>
-								<td>Специалист по предоставлению визажных услуг</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
 								<td>5 000</td>
 								<td>1</td>
 								<td>110</td>
 							</tr>
 						</table>
+
 					</div>
-					<div class="item" id="content-tab7">
+					<div class="item tab-pane" id="psi" role="tabpanel" aria-labelledby="psi">
 						<table class="table">
 							<tr id="head">
 								<th>№</th>
@@ -598,35 +1184,127 @@
 							</tr>
 							<tr>
 								<td>1</td>
-								<td>Специалист по предоставлению визажных услуг</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
 								<td>5 000</td>
 								<td>1</td>
 								<td>110</td>
 							</tr>
 							<tr>
 								<td>1</td>
-								<td>Специалист по предоставлению визажных услуг</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
 								<td>5 000</td>
 								<td>1</td>
 								<td>110</td>
 							</tr>
 							<tr>
 								<td>1</td>
-								<td>Специалист по предоставлению визажных услуг</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
 								<td>5 000</td>
 								<td>1</td>
 								<td>110</td>
 							</tr>
 							<tr>
 								<td>1</td>
-								<td>Специалист по предоставлению визажных услуг</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
 								<td>5 000</td>
 								<td>1</td>
 								<td>110</td>
 							</tr>
 						</table>
+
 					</div>
-					<div class="item" id="content-tab8">
+					<div class="item tab-pane" id="it" role="tabpanel" aria-labelledby="it">
 						<table class="table">
 							<tr id="head">
 								<th>№</th>
@@ -637,35 +1315,127 @@
 							</tr>
 							<tr>
 								<td>1</td>
-								<td>Специалист по предоставлению визажных услуг</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
 								<td>5 000</td>
 								<td>1</td>
 								<td>110</td>
 							</tr>
 							<tr>
 								<td>1</td>
-								<td>Специалист по предоставлению визажных услуг</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
 								<td>5 000</td>
 								<td>1</td>
 								<td>110</td>
 							</tr>
 							<tr>
 								<td>1</td>
-								<td>Специалист по предоставлению визажных услуг</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
 								<td>5 000</td>
 								<td>1</td>
 								<td>110</td>
 							</tr>
 							<tr>
 								<td>1</td>
-								<td>Специалист по предоставлению визажных услуг</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
 								<td>5 000</td>
 								<td>1</td>
 								<td>110</td>
 							</tr>
 						</table>
+
 					</div>
-					<div class="item" id="content-tab9">
+					<div class="item tab-pane" id="jkh" role="tabpanel" aria-labelledby="jkh">
 						<table class="table">
 							<tr id="head">
 								<th>№</th>
@@ -676,35 +1446,127 @@
 							</tr>
 							<tr>
 								<td>1</td>
-								<td>Специалист по предоставлению визажных услуг</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
 								<td>5 000</td>
 								<td>1</td>
 								<td>110</td>
 							</tr>
 							<tr>
 								<td>1</td>
-								<td>Специалист по предоставлению визажных услуг</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
 								<td>5 000</td>
 								<td>1</td>
 								<td>110</td>
 							</tr>
 							<tr>
 								<td>1</td>
-								<td>Специалист по предоставлению визажных услуг</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
 								<td>5 000</td>
 								<td>1</td>
 								<td>110</td>
 							</tr>
 							<tr>
 								<td>1</td>
-								<td>Специалист по предоставлению визажных услуг</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
 								<td>5 000</td>
 								<td>1</td>
 								<td>110</td>
 							</tr>
 						</table>
+
 					</div>
-					<div class="item" id="content-tab10">
+					<div class="item tab-pane" id="med" role="tabpanel" aria-labelledby="med">
 						<table class="table">
 							<tr id="head">
 								<th>№</th>
@@ -715,35 +1577,127 @@
 							</tr>
 							<tr>
 								<td>1</td>
-								<td>Специалист по предоставлению визажных услуг</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
 								<td>5 000</td>
 								<td>1</td>
 								<td>110</td>
 							</tr>
 							<tr>
 								<td>1</td>
-								<td>Специалист по предоставлению визажных услуг</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
 								<td>5 000</td>
 								<td>1</td>
 								<td>110</td>
 							</tr>
 							<tr>
 								<td>1</td>
-								<td>Специалист по предоставлению визажных услуг</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
 								<td>5 000</td>
 								<td>1</td>
 								<td>110</td>
 							</tr>
 							<tr>
 								<td>1</td>
-								<td>Специалист по предоставлению визажных услуг</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
 								<td>5 000</td>
 								<td>1</td>
 								<td>110</td>
 							</tr>
 						</table>
+
 					</div>
-					<div class="item" id="content-tab11">
+					<div class="item tab-pane" id="sport" role="tabpanel" aria-labelledby="sport">
 						<table class="table">
 							<tr id="head">
 								<th>№</th>
@@ -754,35 +1708,127 @@
 							</tr>
 							<tr>
 								<td>1</td>
-								<td>Специалист по предоставлению визажных услуг</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
 								<td>5 000</td>
 								<td>1</td>
 								<td>110</td>
 							</tr>
 							<tr>
 								<td>1</td>
-								<td>Специалист по предоставлению визажных услуг</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
 								<td>5 000</td>
 								<td>1</td>
 								<td>110</td>
 							</tr>
 							<tr>
 								<td>1</td>
-								<td>Специалист по предоставлению визажных услуг</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
 								<td>5 000</td>
 								<td>1</td>
 								<td>110</td>
 							</tr>
 							<tr>
 								<td>1</td>
-								<td>Специалист по предоставлению визажных услуг</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
 								<td>5 000</td>
 								<td>1</td>
 								<td>110</td>
 							</tr>
 						</table>
+
 					</div>
-					<div class="item" id="content-tab12">
+					<div class="item tab-pane" id="desi" role="tabpanel" aria-labelledby="desi">
 						<table class="table">
 							<tr id="head">
 								<th>№</th>
@@ -793,35 +1839,127 @@
 							</tr>
 							<tr>
 								<td>1</td>
-								<td>Специалист по предоставлению визажных услуг</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
 								<td>5 000</td>
 								<td>1</td>
 								<td>110</td>
 							</tr>
 							<tr>
 								<td>1</td>
-								<td>Специалист по предоставлению визажных услуг</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
 								<td>5 000</td>
 								<td>1</td>
 								<td>110</td>
 							</tr>
 							<tr>
 								<td>1</td>
-								<td>Специалист по предоставлению визажных услуг</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
 								<td>5 000</td>
 								<td>1</td>
 								<td>110</td>
 							</tr>
 							<tr>
 								<td>1</td>
-								<td>Специалист по предоставлению визажных услуг</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
 								<td>5 000</td>
 								<td>1</td>
 								<td>110</td>
 							</tr>
 						</table>
+
 					</div>
-					<div class="item" id="content-tab13">
+					<div class="item tab-pane" id="mark" role="tabpanel" aria-labelledby="mark">
 						<table class="table">
 							<tr id="head">
 								<th>№</th>
@@ -832,35 +1970,127 @@
 							</tr>
 							<tr>
 								<td>1</td>
-								<td>Специалист по предоставлению визажных услуг</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
 								<td>5 000</td>
 								<td>1</td>
 								<td>110</td>
 							</tr>
 							<tr>
 								<td>1</td>
-								<td>Специалист по предоставлению визажных услуг</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
 								<td>5 000</td>
 								<td>1</td>
 								<td>110</td>
 							</tr>
 							<tr>
 								<td>1</td>
-								<td>Специалист по предоставлению визажных услуг</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
 								<td>5 000</td>
 								<td>1</td>
 								<td>110</td>
 							</tr>
 							<tr>
 								<td>1</td>
-								<td>Специалист по предоставлению визажных услуг</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
 								<td>5 000</td>
 								<td>1</td>
 								<td>110</td>
 							</tr>
 						</table>
+
 					</div>
-					<div class="item" id="content-tab14">
+					<div class="item tab-pane" id="farm" role="tabpanel" aria-labelledby="farm">
 						<table class="table">
 							<tr id="head">
 								<th>№</th>
@@ -871,35 +2101,127 @@
 							</tr>
 							<tr>
 								<td>1</td>
-								<td>Специалист по предоставлению визажных услуг</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
 								<td>5 000</td>
 								<td>1</td>
 								<td>110</td>
 							</tr>
 							<tr>
 								<td>1</td>
-								<td>Специалист по предоставлению визажных услуг</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
 								<td>5 000</td>
 								<td>1</td>
 								<td>110</td>
 							</tr>
 							<tr>
 								<td>1</td>
-								<td>Специалист по предоставлению визажных услуг</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
 								<td>5 000</td>
 								<td>1</td>
 								<td>110</td>
 							</tr>
 							<tr>
 								<td>1</td>
-								<td>Специалист по предоставлению визажных услуг</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
 								<td>5 000</td>
 								<td>1</td>
 								<td>110</td>
 							</tr>
 						</table>
+
 					</div>
-					<div class="item" id="content-tab15">
+					<div class="item tab-pane" id="another" role="tabpanel" aria-labelledby="another">
 						<table class="table">
 							<tr id="head">
 								<th>№</th>
@@ -910,33 +2232,125 @@
 							</tr>
 							<tr>
 								<td>1</td>
-								<td>Специалист по предоставлению визажных услуг</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
 								<td>5 000</td>
 								<td>1</td>
 								<td>110</td>
 							</tr>
 							<tr>
 								<td>1</td>
-								<td>Специалист по предоставлению визажных услуг</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
 								<td>5 000</td>
 								<td>1</td>
 								<td>110</td>
 							</tr>
 							<tr>
 								<td>1</td>
-								<td>Специалист по предоставлению визажных услуг</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
 								<td>5 000</td>
 								<td>1</td>
 								<td>110</td>
 							</tr>
 							<tr>
 								<td>1</td>
-								<td>Специалист по предоставлению визажных услуг</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
+								<td>5 000</td>
+								<td>1</td>
+								<td>110</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td> <a href="curs.html">Специалист по предоставлению визажных услуг</a></td>
 								<td>5 000</td>
 								<td>1</td>
 								<td>110</td>
 							</tr>
 						</table>
+
 					</div>
 				</div>
 			</div>
@@ -1110,7 +2524,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="contact col-lg-3 col-12 align-items-lg-end align-items-center">
+				<div class="contact mb-4 col-lg-3 col-12 align-items-lg-end align-items-center">
 					<h4>+7 (915) 270-64-64</h4>
 					<a href="#">заказать звонок</a>
 					<h4>ss113982@gmail.com</h4>

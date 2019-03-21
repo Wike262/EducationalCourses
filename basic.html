@@ -197,29 +197,55 @@
 					<h2>Сведения об образовательной организации</h2>
 				</div>
 				<div class="btn-group-vertical col-lg-4 col-12 tabs">
-					<input type="radio" name="tabs" id="1" checked>
-					<label for="1">Основные сведения</label>
-					<input type="radio" name="tabs" id="2">
-					<label for="2">Структура и органы управления</label>
-					<input type="radio" name="tabs" id="3">
-					<label for="3">Документы</label>
-					<input type="radio" name="tabs" id="4">
-					<label for="4">Образование</label>
-					<input type="radio" name="tabs" id="5">
-					<label for="5">Образовательные стандарты</label>
-					<input type="radio" name="tabs" id="6">
-					<label for="6">Руководство. Педагогический (научно- педагогический) состав</label>
-					<input type="radio" name="tabs" id="7">
-					<label for="7">Материально-техническое обеспечение и оснащенность образовательного процесса</label>
-					<input type="radio" name="tabs" id="8">
-					<label for="8">Стипендии и иные виды материальной поддержки</label>
-					<input type="radio" name="tabs" id="9">
-					<label for="9">Платные образовательные услуги</label>
-					<input type="radio" name="tabs" id="10">
-					<label for="10">Финансово-хозяйственная деятельность</label>
+					<ul class="nav nav-tabs" id="myTab" role="tablist">
+						<li class="nav-item">
+							<a class="nav-link active" id="sved-tab" data-toggle="tab" href="#sved" role="tab"
+								aria-controls="sved" aria-selected="true">Основные сведения</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" id="struck-tab" data-toggle="tab" href="#struck" role="tab"
+								aria-controls="struck" aria-selected="false">Структура и органы управления</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" id="doc-tab" data-toggle="tab" href="#doc" role="tab"
+								aria-controls="doc" aria-selected="false">Документы</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" id="edc-tab" data-toggle="tab" href="#edc" role="tab"
+								aria-controls="edc" aria-selected="false">Образование</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" id="edc_s-tab" data-toggle="tab" href="#edc_s" role="tab"
+								aria-controls="edc_s" aria-selected="false">Образовательные стандарты</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" id="ruc-tab" data-toggle="tab" href="#ruc" role="tab"
+								aria-controls="ruc" aria-selected="false">Руководство. Педагогический (научно-
+								педагогический) состав</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" id="mat-tab" data-toggle="tab" href="#mat" role="tab"
+								aria-controls="mat" aria-selected="false">Материально-техническое обеспечение и
+								оснащенность образовательного процесса</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" id="sti-tab" data-toggle="tab" href="#sti" role="tab"
+								aria-controls="sti" aria-selected="false">Стипендии и иные виды материальной
+								поддержки</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" id="plat-tab" data-toggle="tab" href="#plat" role="tab"
+								aria-controls="plat" aria-selected="false">Платные образовательные услуги</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" id="fin-tab" data-toggle="tab" href="#fin" role="tab"
+								aria-controls="fin" aria-selected="false">Финансово-хозяйственная деятельность</a>
+						</li>
+
+					</ul>
 				</div>
-				<div class="content col-lg-8 col-12">
-					<div class="item" id="content-tab1">
+				<div class="tab-content col-lg-8 col-12">
+					<div class="item tab-pane active" id="sved" role="tabpanel" aria-labelledby="sved-tab">
 						<h3>Основные сведения</h3>
 						<p><strong>Полное название:</strong> Частное учреждение «Образовательная организация
 							дополнительного
@@ -242,7 +268,7 @@
 							Электронный адрес: info@маэо.рф
 							Телефон: 8 800 234 17 05</p>
 					</div>
-					<div class="item" id="content-tab2">
+					<div class="item tab-pane" id="struck" role="tabpanel" aria-labelledby="struck-tab">
 						<h3>Структура и органы управления</h3>
 						<ol>
 							<li>Постюшков Андрей Владимирович – ректор, доктор экономических наук, заведующий
@@ -253,7 +279,7 @@
 								«Бухгалтерский учет и аудит».</li>
 						</ol>
 					</div>
-					<div class="item" id="content-tab3">
+					<div class="item tab-pane" id="doc" role="tabpanel" aria-labelledby="doc-tab">
 						<h3>Документы</h3>
 						<ul>
 							<li><a href="#">Устав частного учреждения «Образовательная организация дополнительного
@@ -291,7 +317,7 @@
 							<li><a href="#">Отчёт о результатах самообследования за 2018 учебный год</a></li>
 						</ul>
 					</div>
-					<div class="item" id="content-tab4">
+					<div class="item tab-pane" id="edс" role="tabpanel" aria-labelledby="edс-tab">
 						<h3>Образование</h3>
 						<p>Информация о численности обучающихся по реализуемым образовательным программам за
 							счет бюджетных ассигнований федерального бюджета, бюджетов субъектов Российской
@@ -439,7 +465,7 @@
 							<li><a href="#">ОП Специалист по форекс-брокериджу</a></li>
 						</ul>
 					</div>
-					<div class="item" id="content-tab5">
+					<div class="item tab-pane" id="edc_s" role="tabpanel" aria-labelledby="edc_s-tab">
 						<h3>Образовательные стандарты</h3>
 						<p>Образовательная программа обучения оценщиков «Оценка стоимости предприятия (бизнеса)»
 							разработана в соответствии с Государственными требованиями к программам
@@ -451,7 +477,7 @@
 									в Российской Федерации. </a></li>
 						</ul>
 					</div>
-					<div class="item" id="content-tab6">
+					<div class="item tab-pane" id="ruc" role="tabpanel" aria-labelledby="ruc-tab">
 						<h3>Руководство. Педагогический (научно-педагогический) состав</h3>
 						<ol>
 							<li>Постюшков Андрей Владимирович – ректор, доктор экономических наук.
@@ -465,7 +491,7 @@
 							<li>Голод Варвара Вадимовна — администратор. </li>
 						</ol>
 					</div>
-					<div class="item" id="content-tab7">
+					<div class="item tab-pane" id="mat" role="tabpanel" aria-labelledby="mat-tab">
 						<h3>Материально-техническое обеспечение и оснащенность образовательного процесса</h3>
 						<h4>Сведения о наличии оборудованных учебных кабинетов</h4>
 						<p>Для реализации образовательного процесса используются оборудованные учебные кабинеты.</p>
@@ -526,7 +552,7 @@
 							специальных технических средствах обучения коллективного и индивидуального пользования
 							для инвалидов и лиц с ограниченными возможностями здоровья.</p>
 					</div>
-					<div class="item" id="content-tab8">
+					<div class="item tab-pane" id="sti" role="tabpanel" aria-labelledby="sti-tab">
 						<h3>Стипендии и иные виды материальной поддержки</h3>
 						<h4>Информация о наличии и условиях предоставления обучающимся стипендий</h4>
 						<p>Стипендии не предоставляются.</p>
@@ -539,7 +565,7 @@
 						<p>Трудоустройство – не предоставляется. Информация о мерах социальной поддержки Обучающимся
 							предоставляется возможность оплаты обучения в рассрочку (частями).</p>
 					</div>
-					<div class="item" id="content-tab9">
+					<div class="item tab-pane" id="plat" role="tabpanel" aria-labelledby="plat-tab">
 						<h3>Платные образовательные услуги</h3>
 						<p>Платные образовательные услуги представлены на сайте в разделе «Цены»
 							образовательных программ Международной академии экспертизы и оценки. </p>
@@ -548,7 +574,7 @@
 								</a></li>
 						</ul>
 					</div>
-					<div class="item" id="content-tab10">
+					<div class="item tab-pane" id="fin" role="tabpanel" aria-labelledby="fin-tab">
 						<h3>Финансово-хозяйственная деятельность</h3>
 						<p>Результаты финансово-хозяйственной деятельности определяются в ЧУ «ООДПО
 							«Международная академия экспертизы и оценки» за каждый календарный год по данным
@@ -682,7 +708,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="contact col-lg-3 col-12 align-items-lg-end align-items-center">
+				<div class="contact mb-4 col-lg-3 col-12 align-items-lg-end align-items-center">
 					<h4>+7 (915) 270-64-64</h4>
 					<a href="#">заказать звонок</a>
 					<h4>ss113982@gmail.com</h4>

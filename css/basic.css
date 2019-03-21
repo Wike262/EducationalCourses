@@ -1,51 +1,82 @@
 .basic {
-  margin: 50px 0; }
-  .basic .title {
-    margin-bottom: 50px; }
-  .basic .btn-group-vertical {
+    margin: 50px 0;
+}
+
+.basic .title {
+    margin-bottom: 50px;
+}
+
+.basic .btn-group-vertical {
     color: #575757;
     width: 400px;
     margin-bottom: 40px;
     -webkit-box-pack: start;
     -webkit-justify-content: flex-start;
-        -ms-flex-pack: start;
-            justify-content: flex-start; }
-    .basic .btn-group-vertical input {
-      display: none; }
-      .basic .btn-group-vertical input:checked + label {
-        background: #508a90;
-        color: #ffffff; }
-    .basic .btn-group-vertical label {
-      cursor: pointer;
-      background: #f5f5f5;
-      border: none;
-      width: 100%;
-      text-align: left;
-      padding: 10px 20px;
-      margin: 2px 0; }
-  .basic .content table {
-    text-align: center; }
-    .basic .content table .th {
-      text-align: center !important; }
-    .basic .content table td:nth-child(2) {
-      text-align: left; }
-  .basic .content .item {
-    display: none; }
-  .basic .content strong {
-    font-weight: bold; }
-  .basic .content ol li {
-    font-size: 20px;
-    margin: 20px 0; }
-  .basic .content h3 {
-    margin: 20px 0 40px 0; }
-  .basic .content h4 {
-    font-weight: lighter; }
-  .basic .content p {
-    font-size: 18px; }
-  .basic .content ul li:nth-child(1) a {
-    color: #96b9bc !important; }
-  .basic .content a {
-    color: #000000 !important; }
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+}
 
-#content-tab1 {
-  display: block; }
+
+
+.basic .btn-group-vertical .nav-tabs .nav-link {
+    cursor: pointer;
+    background: #f5f5f5;
+    color: #000000 !important;
+    border: none;
+    width: 100%;
+    text-align: left;
+    padding: 10px 20px;
+    margin: 2px 0;
+}
+
+.basic .btn-group-vertical .nav-tabs .active {
+    background: #508a90;
+    color: #ffffff !important;
+}
+
+.basic .btn-group-vertical .nav-tabs .nav-item {
+    width: 100%;
+}
+
+.basic .tab-content table {
+    text-align: center;
+}
+
+.basic .tab-content table .th {
+    text-align: center !important;
+}
+
+.basic .tab-content table td:nth-child(2) {
+    text-align: left;
+}
+
+.basic .tab-content strong {
+    font-weight: bold;
+}
+
+.basic .tab-content ol li {
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+.basic .tab-content h3 {
+    /* margin: 20px 0 40px 0; */
+    font-weight: lighter;
+    margin-bottom: 20px;
+}
+
+.basic .tab-content h4 {
+    font-weight: lighter;
+}
+
+.basic .tab-content p {
+    font-size: 18px;
+}
+
+.basic .tab-content ul li:nth-child(1) a {
+    color: #96b9bc !important;
+}
+
+.basic .tab-content a {
+    color: #000000 !important;
+}

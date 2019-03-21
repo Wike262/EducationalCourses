@@ -1,6 +1,6 @@
 .professions {
   color: #40555f; }
-  .professions .referens {
+  .professions .referens .nav-tabs {
     margin: 40px 0;
     display: -webkit-box;
     display: -webkit-flex;
@@ -23,13 +23,10 @@
             text-decoration-style: dashed;
     -webkit-text-decoration-line: underline;
             text-decoration-line: underline; }
-    .professions .referens input {
-      display: none; }
-      .professions .referens .chek {
-        background: #40555f;
-        color: #ffffff; }
-    .professions .referens label {
-      color: #40555f;
+
+
+    .professions .referens .nav-link {
+      color: #40555f !important;
       cursor: pointer;
       border: none;
       -webkit-border-radius: 5px;
@@ -37,6 +34,9 @@
       text-align: left;
       padding: 10px 20px;
       margin: 2px 0; }
+      .professions .referens .active {
+        background: #40555f;
+        color: #ffffff !important; }
   .professions .card {
     background: #f6f6f6;
     margin-bottom: 50px; }
@@ -44,8 +44,6 @@
       height: 310px; }
     .professions .card .card-title {
       font-size: 24px; }
-  .professions .ite {
-    display: none; }
     .professions .ite .row {
       margin: 0; }
 
